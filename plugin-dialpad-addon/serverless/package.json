@@ -1,0 +1,19 @@
+{
+	"name": "dialpad-serverless",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "twilio-run --env",
+		"build": "./node_modules/.bin/env-cmd -f .env.production flex-plugin build"
+	},
+	"devDependencies": {
+		"twilio-run": "^2.0.0"
+	},
+	"engines": {
+		"node": "8.10.0"
+	},
+	"dependencies": {
+		"twilio-flex-token-validator": "^1.5.1"
+	}
+}

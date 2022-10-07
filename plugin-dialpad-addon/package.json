@@ -1,0 +1,26 @@
+{
+  "name": "plugin-dialpad",
+  "version": "3.0.1",
+  "private": true,
+  "scripts": {
+    "prebuild": "npm run bootstrap",
+    "build": "flex-plugin build",
+    "postinstall": "flex-plugin pre-script-check"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "env-cmd": "^10.1.0",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.1",
+    "react": "^16.5.2",
+    "react-autosuggest": "^10.1.0",
+    "react-dom": "^16.5.2",
+    "react-select": "^3.1.0",
+    "flex-plugin-scripts": "4.2.1"
+  },
+  "devDependencies": {
+    "@twilio/flex-ui": "^1",
+    "react-test-renderer": "^16.5.2"
+  }
+}
